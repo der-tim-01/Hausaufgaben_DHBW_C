@@ -1,5 +1,5 @@
 // Datum: 08.05.2020
-// Autoren: Jan Brudermüller, Tim Schierle
+// Autoren: Jan Brudermï¿½ller, Tim Schierle
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -21,7 +21,7 @@ double ableitung(double x) {
 
 int main() {
 
-	double xn = 5;  //Startwert für x
+	double xn = 5;  //Startwert fï¿½r x
 	
 	double xo = 5;
 
@@ -53,3 +53,9 @@ int main() {
 	printf("\n\n\nNullstelle bei: %.5lf\n", xn);
 
 }
+
+/*
+> nice implementation! (8/10) 
+> missing extra lib (*.c + *.h) incl. includegard includeguards: -1 P
+> missing abort criteria of max iterations: -1P
+*/
