@@ -88,7 +88,7 @@ void saveList(listElement *start){
 
     int len = getLenOfList(start);
 
-    int i = 0;
+    int i = 0; // JW 2020-05-22: what ist this for? i think its unused. 
     listElement *currElem = start;
     fprintf(fPtr,"%d ",len);
         do {
@@ -177,7 +177,12 @@ void stringToLower(char *string) {
     printf("\n>>stringToLower fcn is tbd.\n\n");
 
 }
-
+/*
+JW-2020-05-22:
+--------------
+> well done (10/10) 
+> how much time did you spend on this exercise? I think it was a litte to easy wasnt it?
+*/
 
 
 
