@@ -83,3 +83,9 @@ int main(){
     
 return 0;
 }
+/*
+JW-2020-06-11:
+--------------
+> well done (8/10) !
+> missing damper constant for "aperiodischer grenzfall"
+*/
